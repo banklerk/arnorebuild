@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастерская дизайна «Арнольд Студия»</title>
+    <meta name="description" content="Графический дизайн и все его области начиная от разработки логотипов и веб-сайтов заканчивая дизайном обложек и печатной продукции. Соотношение цены и качества наша главная задача. Дизайн - это лицо Вашего бренда.">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/webicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/webicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/webicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body class="index-page" lang="ru">
+    <header class="main-header">
+      <div class="container">
+        <nav class="header-nav row">
+          <input id="responsive-menu" type="checkbox" />
+          <label for="responsive-menu" lang="ru"> Меню <div class="menu-icon"><span class="menu-icon__bars"></span></div>
+          </label>
+          <div class="overlay"></div>
+          <div class="site-nav-container">
+            <ul lang="ru" class="list-nav">
+              <li class="active"><a>Главная</a></li>
+              <li><a href="logo.html" class="nav__url">Логотипы</a></li>
+              <li><a href="product.html" class="nav__url">Продукция</a></li>
+              <li><a href="covers.html" class="nav__url">Обложки</a></li>
+              <li><a href="picture.html" class="nav__url">Фото-портфолио</a></li>
+              <li><a href="web_design.html" class="nav__url">Веб-дизайн</a></li>
+            </ul>
+            <div class="header-toggle">
+              <form class="form-control" id="lang-switcher">
+                <!-- TOGGLE-ENG -->
+                <div class="form-control-item item-1">
+                  <input id="toggle-eng" class="toggle toggle-eng" type="radio" name="toggle" value="en" onchange="selectLanguage(this);" />
+                  <label for="toggle-eng" class="btn">Eng</label>
+                </div>
+                <!-- TOGGLE-RUS -->
+                <div class="form-control-item item-2">
+                  <input id="toggle-rus" class="toggle toggle-rus" type="radio" name="toggle" value="ru" onchange="selectLanguage(this);" checked="checked" />
+                  <label for="toggle-rus" class="btn">Rus</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="container">
+        <section class=" main-page  row">
+          <div class="main-page-logo">
+            <img src="img/main-logo.png" alt="Логотип «Арнольд Студия»">
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="main-footer-wrapper row">
+          <p class="footer-contact">
+            <a href="tel:+79313755621">
+              <i class="material-icons">phone</i>
+              <span>&nbsp; &nbsp; +7931 3755621</span>
+            </a>
+          </p>
+          <div class="footer-welcome"></div>
+          <p class="footer-post">
+            <a href="mailto:leeice@mail.ru">
+              <i class="material-icons">mail</i>
+              <span>&nbsp; &nbsp; arnoldesign@mail.ru</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
